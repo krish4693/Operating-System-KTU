@@ -57,6 +57,13 @@ void main()
     a[0].wt=a[0].tt-a[0].bt;
     a[0].visited=1;
     int ct=a[0].ct;
-    
+    for(int i=1;i<process_no;i++)
+    {
+        for(int j=1;j<process_no;j++)
+        {
+            
+        }
+    }
+
 
 }
