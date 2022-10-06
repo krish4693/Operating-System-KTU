@@ -3,7 +3,7 @@ int n,r,alloc[10][10],max[10][10],need[10][10],avail[10],work[10];
 void banker()
 {
     int i,j,k,count,count1=0,flag[10];
-    for(i=0;i<n;i++)
+    for(i=0;i<n;i++)            //set all flag values as 0
     {
         flag[i]=0;
     }
